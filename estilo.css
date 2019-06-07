@@ -1,0 +1,45 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    outline: none;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+.txt{
+    height: 35px ;
+    width: 400px ;
+    border: none;
+    border-radius: 5px;
+    background-color: #EEE;      
+}
+#cad_table{
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 10px;
+    border: none;             
+}
+#bot_cadas{
+    width: 100px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+fieldset{margin:0 auto;margin-top:20px;padding:0 auto; width:400px;border-radius: 5px;box-shadow: 1px 2px 6px #ccc;}
+input[type=submit]{margin-top:3px;cursor:pointer;}
+input[type=submit]:hover{box-shadow: 1px 1px 5px #000;}
+input{padding: 5px 5px;font-size: 16px;width:400px;}
+span{float:right;margin-right: 5px;}
+span a{text-decoration:none;font-weight: bold;color:black;}
+span a:hover{text-decoration: underline;}
+
+#cadastrar{
+
+    margin-left: 55px;
+}
+
+#sair{
+
+   margin-left: 35%;
+}
