@@ -11,7 +11,8 @@ include "verifica.php";
         <link rel="stylesheet" type="text/css" href="estilo.css">
     </head>
 
-        <body>
+        <body id="txtMenu">
+            <br><br>
             <h1>Seja bem vindo!!! <?php echo $_SESSION["LOGIN_USUARIO"]; ?></h1>
 
             <a href="cadastro_novela.php" ><input type="submit" value="Cadastrar Novela" id="cadastrar_novela"></a>

@@ -14,6 +14,7 @@ include "verifica.php";
 	</head>
 
 		<body>
+            <br><br>
             <?php
                 $link = mysqli_connect("localhost", "root", "admin", "dw1ex1");
 
@@ -26,7 +27,7 @@ include "verifica.php";
                 $query = "SELECT nome, cpf FROM ator order by nome";
 
                 if ($result = mysqli_query($link, $query)) {
-                    echo"<table border='1'>
+                    echo"<table class='blueTable'>
                         <caption>Atores Cadastrados</caption>
                         <thead>
                                 <tr>
@@ -49,7 +50,8 @@ include "verifica.php";
                 /* close connection */
                 mysqli_close($link);
             ?>
-            <a href="logoff.php"><input type="submit" value="Sair" id="sair"></a>
+            <br><br><a href="logoff.php"><input type="submit" value="Sair" id="sair"></a><br>
+            <a href="login.php"><input type="submit" value="Voltar" id="sair">
 		</body>
 
 </html>
